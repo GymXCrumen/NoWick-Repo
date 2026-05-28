@@ -30,7 +30,7 @@ load_dotenv()
 # ──────────────────────────────────────────────
 # CONFIG
 # ──────────────────────────────────────────────
-TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN", "YOUR_BOT_TOKEN")
+TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN", "8711673831:AAHLoqgcZ3Fs9N-uxo8K6jqsFJmn6DKyMI4")
 CHAT_ID          = os.getenv("TELEGRAM_CHAT_ID", "YOUR_CHAT_ID")
 TWELVEDATA_KEY   = os.getenv("TWELVEDATA_API_KEY", "YOUR_TWELVEDATA_KEY")
 
