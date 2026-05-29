@@ -30,9 +30,9 @@ load_dotenv()
 # ──────────────────────────────────────────────
 # CONFIG
 # ──────────────────────────────────────────────
-TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN", "YOUR_BOT_TOKEN")
-CHAT_ID          = os.getenv("TELEGRAM_CHAT_ID", "YOUR_CHAT_ID")
-TWELVEDATA_KEY   = os.getenv("TWELVEDATA_API_KEY", "YOUR_TWELVEDATA_KEY")
+TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN", "8711673831:AAHLoqgcZ3Fs9N-uxo8K6jqsFJmn6DKyMI4")
+CHAT_ID          = os.getenv("TELEGRAM_CHAT_ID", "7027461661")
+TWELVEDATA_KEY   = os.getenv("TWELVEDATA_API_KEY", "915d19cf66c24bfab3df227c297a4b9f")
 
 SYMBOLS = ["GBP/JPY", "EUR/JPY", "XAU/USD", "USD/JPY"]
 INTERVAL         = "15min"
