@@ -16,7 +16,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 load_dotenv()
 
 # ── CONFIG ──────────────────────────────────────────────────────────
-TELEGRAM_TOKEN = os.getenv("8711673831:AAHLoqgcZ3Fs9N-uxo8K6jqsFJmn6DKyMI4",    "YOUR_BOT_TOKEN")
+TELEGRAM_BOT_TOKEN = os.getenv("8711673831:AAHLoqgcZ3Fs9N-uxo8K6jqsFJmn6DKyMI4",    "YOUR_BOT_TOKEN")
 CHAT_ID        = os.getenv("7027461661",  "YOUR_CHAT_ID")
 TWELVEDATA_KEY = os.getenv("915d19cf66c24bfab3df227c297a4b9f", "YOUR_TWELVEDATA_KEY")
 
