@@ -1,5 +1,5 @@
 # 🕯 No-Wick Signal Bot — Setup Guide
-**Equity Edge $5K Challenge | M15 | GBP/JPY · EUR/JPY · XAU/USD · USD/JPY**
+**| GBP/JPY · EUR/JPY · XAU/USD · USD/JPY**
 
 ---
 
