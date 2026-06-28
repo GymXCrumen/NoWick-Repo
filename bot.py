@@ -28,7 +28,11 @@ CHAT_ID        = _require("TELEGRAM_CHAT_ID")
 TWELVEDATA_KEY = _require("TWELVEDATA_API_KEY")
 CHANNEL_ID     = os.environ.get("CHANNEL_ID", "-1003379266288")
 
-SYMBOLS = ["GBP/JPY", "EUR/JPY", "XAU/USD", "USD/JPY"]
+SYMBOLS = [
+    "GBP/JPY", "EUR/JPY", "USD/JPY", "XAU/USD",  # current
+    "GBP/USD", "EUR/USD",                           # cleanest majors
+    "USD/CHF", "AUD/USD",                           # solid trends
+]
 
 TIMEFRAMES = {
     "1H":   {"interval": "1h",   "label": "1H Swing",    "scan_secs": 300,  "candles": 60, "min_body_pips": 5,  "wick_tol": 0.15, "ema_fast": 9, "ema_slow": 21, "rsi_period": 14, "atr_period": 14},
